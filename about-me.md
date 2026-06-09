@@ -1,0 +1,10 @@
+- Your name, school, and grade
+- My name is Cayden Chung. I am a rising junior and I am homeschooled.
+- Why you joined this program
+- I am interested in learning how to develop high peformance AI models and also how to work with supercomputers in general.
+- **3 things you hope to learn this summer**
+- 1. How to train and depoloy a high peformance AI model with supercomputers
+- 2. How to work better in a team -- typically I only work by myself in a coding project since no one I know is interested in computer science and AI
+- 3. How to work in a professional setting
+- One fun fact about you (emoji encouraged �)
+- I've moved about 10 times in my life
