@@ -122,6 +122,14 @@ Do these with your pair. The exact order is up to you; this is a sane default.
 
 ---
 
+## 📓 Want a jump start? The interactive notebook
+
+Once you have your NRP token (steps 3–4 above), open [**`notebooks/week-01-first-api-calls.ipynb`**](../notebooks/week-01-first-api-calls.ipynb) in VS Code (install the *Jupyter* extension if prompted). It takes this same `hello_llm.py` and grows it, one small change at a time, into a bot that can **call tools** — do exact math and fetch **live weather**. Totally optional, but it's the fun part, and it's a sneak peek at Week 8.
+
+> New to Python? Do [the Week 2 notebook](../notebooks/week-02-python-and-git.ipynb) first — it needs no token.
+
+---
+
 ## 📝 Homework — after our first (kickoff) call
 
 This is your **first real git workflow** — the exact loop you'll use to contribute code all summer. Don't worry if it's new; that's the point. Take it one step at a time.

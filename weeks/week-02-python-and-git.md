@@ -60,6 +60,12 @@ And the team milestone: every pair has merged a PR with `chat.py` into the team 
 
 ---
 
+## 📓 Interactive notebook — start here
+
+Open [**`notebooks/week-02-python-and-git.ipynb`**](../notebooks/week-02-python-and-git.ipynb) in VS Code (install the *Jupyter* extension if it prompts you). It's this whole week as **runnable cells** — every Python concept below has a live example and a **🔧 Your turn** cell. Type, run, break, fix. Most of it needs **no NRP token**, so you can start today. Work through it with your pair, then build `chat.py` for real.
+
+---
+
 ## Suggested daily flow
 
 ### Monday — Python basics, hand-written
