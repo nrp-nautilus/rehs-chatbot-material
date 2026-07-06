@@ -30,8 +30,9 @@ rehs-curriculum/
 │   ├── week-07-deploy.md              Merge the best bots. Deploy to NRP together.
 │   └── week-08-polish-and-present.md  Polish the repo, go live, present, celebrate.
 ├── notebooks/
-│   ├── week-01-first-api-calls.ipynb   interactive: hello_llm → a tool-calling weather bot
-│   └── week-02-python-and-git.ipynb    interactive: Python fundamentals + git, runnable cells
+│   ├── week-01-first-api-calls.ipynb    interactive: hello_llm → a tool-calling weather bot
+│   ├── week-02-python-and-git.ipynb     interactive: Python fundamentals + git, runnable cells
+│   └── week-04-streamlit-and-tools.ipynb interactive: Streamlit UI + tool calling → a kubectl bot
 ├── starter-repo/                     the chatbot scaffold you clone in Week 1
 └── resources/
     ├── primer-supercomputing-ai-nrp.md  the "why" behind the program (read for Week 1)

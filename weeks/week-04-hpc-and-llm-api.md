@@ -62,6 +62,12 @@ A live demo where you:
 
 ---
 
+## 📓 Interactive notebook — the Streamlit + tools build
+
+Open [**`notebooks/week-04-streamlit-and-tools.ipynb`**](../notebooks/week-04-streamlit-and-tools.ipynb) in VS Code (install the *Jupyter* extension if it prompts). It's the Wednesday–Thursday material as runnable cells: the **LLM bits** (streaming, memory, system prompts — with the real NRP gotchas), then **Streamlit built up one `app.py` at a time**, then a **tools show-and-tell** ending in a read-only **`kubectl` tool** — a bot that can answer *"how many pods are running in our namespace?"* by inspecting the real cluster. It needs your NRP token (and `kubectl` set up from Week 3 for the last part).
+
+---
+
 ## Suggested daily flow
 
 ### Monday — HPC concepts + GPUs on NRP
