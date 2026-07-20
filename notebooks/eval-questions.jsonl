@@ -1,0 +1,10 @@
+{"q": "How do I request a GPU in my pod?", "expected_source": "running/gpu-pods", "ideal": "Add nvidia.com/gpu to the container's resource limits, and optionally a nodeSelector on nvidia.com/gpu.product for a specific type.", "category": "gpu"}
+{"q": "How do I run a batch job on Nautilus?", "expected_source": "tutorial/jobs", "ideal": "Write a Job manifest (apiVersion batch/v1, kind Job) and apply it with kubectl.", "category": "jobs"}
+{"q": "How do I use the NRP LLM API from Python?", "expected_source": "llm-managed", "ideal": "Use the openai client with base_url https://ellm.nrp-nautilus.io/v1 and your token as the API key.", "category": "llm"}
+{"q": "How do I get a token for the NRP LLM service?", "expected_source": "llm-managed", "ideal": "Generate one at nrp.ai/llmtoken and pass it as a Bearer token / API key.", "category": "llm"}
+{"q": "How do I keep data so it survives a pod restart?", "expected_source": "storage", "ideal": "Store it on a PersistentVolumeClaim and mount that PVC into the pod.", "category": "storage"}
+{"q": "Why is my pod stuck and not getting scheduled?", "expected_source": "tutorial/scheduling", "ideal": "The scheduler can't find a node matching your requests/affinity; check resources and describe the pod's events.", "category": "scheduling"}
+{"q": "What is a namespace and how do I use mine?", "expected_source": "start/getting-started", "ideal": "A namespace scopes your resources; pass -n <namespace> to kubectl or set it as your context default.", "category": "basics"}
+{"q": "How do I move large datasets onto Nautilus storage?", "expected_source": "storage/move-data", "ideal": "Use the documented transfer tools (e.g. rclone / S3) rather than kubectl cp for large data.", "category": "storage"}
+{"q": "What is the best pizza topping?", "expected_source": "NONE", "ideal": "Not covered by NRP documentation — the bot should decline.", "category": "out-of-scope"}
+{"q": "How do I set up a Minecraft server on my home PC?", "expected_source": "NONE", "ideal": "Not covered by NRP documentation — the bot should decline.", "category": "out-of-scope"}
