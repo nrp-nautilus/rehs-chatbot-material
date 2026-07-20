@@ -14,7 +14,7 @@ A quick reference for the NRP-specific things you'll do all summer. Bookmark thi
 | LLM status dashboard | https://nrp.ai/documentation/userdocs/ai/llm-managed/ |
 | Matrix (chat) | https://element.nrp-nautilus.io |
 | Documentation site | https://nrp.ai/documentation/ |
-| Source repo for docs | https://github.com/nrp-nautilus/documentation |
+| Docs corpus (bundled) | `notebooks/nrp-docs/` — 85 pages pulled from nrp.ai |
 
 ---
 

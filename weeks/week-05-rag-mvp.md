@@ -86,7 +86,7 @@ Agree these as a cohort, write them down, and **don't deviate** — a bot that b
 
 ### Part 1 — Ingest (scrape + chunk)
 **Produce ≥100 clean chunks in `data/chunks/` matching the agreed schema.**
-- Easiest path: clone the `nrp-nautilus/documentation` repo — the docs are already markdown, no scraping needed.
+- Easiest path: use the bundled corpus in `notebooks/nrp-docs/` — 85 real NRP pages, already markdown, each with its `Source:` URL.
 - Or scrape `nrp.ai/documentation/` with `requests` + `beautifulsoup4`.
 - **Clean** the text (strip nav/menus), keep each page's `source_url` for citations.
 - **Chunk** to ~500 tokens (~2000 chars) with ~100-token overlap. Use LangChain's `RecursiveCharacterTextSplitter` (one line) or write your own.
@@ -200,7 +200,7 @@ QUESTION: {prompt}"""
 - [Chroma docs](https://docs.trychroma.com/)
 - [LangChain text splitters](https://docs.langchain.com/oss/python/integrations/splitters)
 - [What is RAG? (Pinecone explainer)](https://www.pinecone.io/learn/retrieval-augmented-generation/)
-- [NRP docs source repo](https://github.com/nrp-nautilus/documentation) — often easier than scraping the rendered site
+- Bundled corpus: `notebooks/nrp-docs/` — already scraped and cleaned for you
 - [Docker get started](https://docs.docker.com/get-started/)
 - Your starter repo's [`docs/INTERFACES.md`](../starter-repo/docs/INTERFACES.md) — the contracts, in full
 

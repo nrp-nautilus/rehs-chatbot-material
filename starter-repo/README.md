@@ -33,8 +33,8 @@ best pieces of every pair's bot into one team product.)
 ## Quick start (Day 1)
 
 ```bash
-git clone https://github.com/sdsc-rehs/rehs-nrp-chatbot.git
-cd rehs-nrp-chatbot
+git clone https://github.com/nrp-nautilus/rehs-chatbot-material.git
+cd rehs-chatbot-material/starter-repo
 
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
